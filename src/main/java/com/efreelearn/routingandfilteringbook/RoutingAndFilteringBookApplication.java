@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
-import org.springframework.test.context.ContextConfiguration;
+
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 @EnableDiscoveryClient
 @SpringBootConfiguration
 @EnableZuulProxy
-@ContextConfiguration
+
 public class RoutingAndFilteringBookApplication {
 
   @RequestMapping(value = "/available")
