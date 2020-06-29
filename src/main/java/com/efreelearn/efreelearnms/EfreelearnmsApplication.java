@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Bean;
 
 import com.efreelearn.routingandfilteringgateway.filters.pre.SimpleFilter;
 
-@SpringBootApplication
+//@SpringBootApplication
 @EnableZuulProxy
 public class EfreelearnmsApplication {
 
